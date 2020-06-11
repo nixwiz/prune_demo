@@ -1,0 +1,17 @@
+---
+type: CheckConfig
+api_version: core/v2
+metadata:
+  name: check-load
+spec:
+  command: check-load.rb
+  interval: 10
+  publish: false
+  runtime_assets:
+  - sensu-plugins/sensu-plugins-load-checks:5.1.0
+  - sensu/sensu-ruby-runtime:0.0.10
+  subscriptions:
+  - system/linux
+  - system/linux/load
+  handlers:
+  - alert

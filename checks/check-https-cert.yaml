@@ -1,0 +1,24 @@
+---
+type: CheckConfig
+api_version: core/v2
+metadata:
+  name: check-https-cert
+spec:
+  command: >-
+    check-https-cert.rb
+    --url {{ .annotations.check_https_cert_url | default "https://localhost:80/" }}
+    --warning {{ .annotations.check_https_cert_warning_days | default 50 }}
+    --critical {{ .annotations.check_https_cert_critical_days | default 25 }}
+  runtime_assets:
+    - sensu-plugins/sensu-plugins-http:6.0.0
+    - sensu/sensu-ruby-runtime:0.0.10
+  publish: false
+  subscriptions:
+    - http
+  interval: 30
+  timeout: 10
+  ttl: 0
+  proxy_entity_name: ""
+  stdin: false
+  handlers:
+    - alert
