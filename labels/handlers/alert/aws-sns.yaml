@@ -52,7 +52,7 @@ api_version: core/v2
 metadata:
   name: aws-sns
   labels:
-    jenkins_managed: yes
+    jenkins_managed: "yes"
 spec:
   command: sensu-aws-sns-handler
   env_vars: null
@@ -111,7 +111,7 @@ api_version: core/v2
 metadata:
   name: sensu-aws-sns-handler:0.1.0
   labels:
-    jenkins_managed: yes
+    jenkins_managed: "yes"
   annotations:
     io.sensu.bonsai.url: https://bonsai.sensu.io/assets/nixwiz/sensu-aws-sns-handler
     io.sensu.bonsai.api_url: https://bonsai.sensu.io/api/v1/assets/nixwiz/sensu-aws-sns-handler

@@ -4,7 +4,7 @@ api_version: core/v2
 metadata:
   name: check-memory
   labels:
-    jenkins_managed: yes
+    jenkins_managed: "yes"
 spec:
   command: >-
     check-memory.rb

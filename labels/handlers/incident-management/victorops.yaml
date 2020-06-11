@@ -42,7 +42,7 @@ api_version: core/v2
 metadata:
   name: victorops
   labels:
-    jenkins_managed: yes
+    jenkins_managed: "yes"
 spec:
   command: sensu-victorops-handler
   env_vars: null
@@ -80,7 +80,7 @@ metadata:
   name: nixwiz/sensu-victorops-handler:0.1.2
   namespace: default
   labels:
-    jenkins_managed: yes
+    jenkins_managed: "yes"
 spec:
   builds:
   - filters:

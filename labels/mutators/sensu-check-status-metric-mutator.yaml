@@ -20,7 +20,7 @@ metadata:
   name: sensu-check-status-metric-mutator
   namespace: default
   labels:
-    jenkins_managed: yes
+    jenkins_managed: "yes"
 spec:
   command: >-
     sensu-check-status-metric-mutator
@@ -33,7 +33,7 @@ api_version: core/v2
 metadata:
   name: sensu-check-status-metric-mutator:0.2.1
   labels:
-    jenkins_managed: yes
+    jenkins_managed: "yes"
   annotations:
     io.sensu.bonsai.url: https://bonsai.sensu.io/assets/nixwiz/sensu-check-status-metric-mutator
     io.sensu.bonsai.api_url: https://bonsai.sensu.io/api/v1/assets/nixwiz/sensu-check-status-metric-mutator
