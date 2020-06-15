@@ -78,6 +78,8 @@ type: Secret
 api_version: secrets/v1
 metadata:
   name: aws_secret_access_key
+  labels:
+    jenkins_managed: "yes"
 spec:
   provider: env
   id: AWS_SECRET_ACCESS_KEY
@@ -86,6 +88,8 @@ type: Secret
 api_version: secrets/v1
 metadata:
   name: aws_access_key_id
+  labels:
+    jenkins_managed: "yes"
 spec:
   provider: env
   id: AWS_ACCESS_KEY_ID
@@ -94,6 +98,8 @@ type: Secret
 api_version: secrets/v1
 metadata:
   name: aws_region
+  labels:
+    jenkins_managed: "yes"
 spec:
   provider: env
   id: AWS_REGION
@@ -102,6 +108,8 @@ type: Secret
 api_version: secrets/v1
 metadata:
   name: sns_topic_arn
+  labels:
+    jenkins_managed: "yes"
 spec:
   provider: env
   id: SNS_TOPIC_ARN

@@ -62,6 +62,8 @@ type: Secret
 api_version: secrets/v1
 metadata:
   name: pagerduty_token
+  labels:
+    jenkins_managed: "yes"
 spec:
   provider: env
   id: PAGERDUTY_TOKEN
