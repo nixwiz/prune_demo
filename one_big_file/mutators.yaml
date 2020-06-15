@@ -1,0 +1,16 @@
+---
+type: Mutator
+api_version: core/v2
+metadata:
+  created_by: jenkins
+  labels:
+    sensu.io/managed_by: sensuctl
+  name: sensu-check-status-metric-mutator
+  namespace: prune-demo
+spec:
+  command: sensu-check-status-metric-mutator --metric-name-template "{{.Check.Name}}.status"
+  env_vars: null
+  runtime_assets:
+  - nixwiz/sensu-check-status-metric-mutator:0.2.1
+  secrets: null
+  timeout: 0

@@ -1,0 +1,208 @@
+---
+type: Asset
+api_version: core/v2
+metadata:
+  annotations:
+    io.sensu.bonsai.api_url: https://bonsai.sensu.io/api/v1/assets/nixwiz/sensu-aws-sns-handler
+    io.sensu.bonsai.name: sensu-aws-sns-handler
+    io.sensu.bonsai.namespace: nixwiz
+    io.sensu.bonsai.tags: aws, handler
+    io.sensu.bonsai.tier: Community
+    io.sensu.bonsai.url: https://bonsai.sensu.io/assets/nixwiz/sensu-aws-sns-handler
+    io.sensu.bonsai.version: 0.1.0
+  created_by: jenkins
+  labels:
+    sensu.io/managed_by: sensuctl
+  name: sensu-aws-sns-handler:0.1.0
+  namespace: prune-demo
+spec:
+  builds:
+  - filters:
+    - entity.system.os == 'windows'
+    - entity.system.arch == 'amd64'
+    headers: null
+    sha512: b8928b5b72dfdb3cef15d307fc4849aea4ad432e6f541b9e744f3d7b3c6cdf3dd85710708215e3f65c8d98a5612d9f238bac6974173767c41543f40a70f4a21f
+    url: https://assets.bonsai.sensu.io/304d4c058bcd8b07f436f2187e946b1588602579/sensu-aws-sns-handler_0.1.0_windows_amd64.tar.gz
+  - filters:
+    - entity.system.os == 'darwin'
+    - entity.system.arch == 'amd64'
+    headers: null
+    sha512: e42ff50429bfd8067f4eb1ffe2d3ac228e4301952cf4221f2b740c31ebcdd0b1a031968a334091d08afdbf4c95c87056d53c7a5429b537d74a9b6d3ef99c187e
+    url: https://assets.bonsai.sensu.io/304d4c058bcd8b07f436f2187e946b1588602579/sensu-aws-sns-handler_0.1.0_darwin_amd64.tar.gz
+  - filters:
+    - entity.system.os == 'linux'
+    - entity.system.arch == 'armv7'
+    headers: null
+    sha512: 1052a0e55f7e0918fb8145b8a17908cdbe29b7a9dc44d1db3ec31ddfc021ba212f682dd9a82caf743ca955ad63c6df14e0461658235d7310c86a2848d4a8d5a7
+    url: https://assets.bonsai.sensu.io/304d4c058bcd8b07f436f2187e946b1588602579/sensu-aws-sns-handler_0.1.0_linux_armv7.tar.gz
+  - filters:
+    - entity.system.os == 'linux'
+    - entity.system.arch == 'arm64'
+    headers: null
+    sha512: 762c74c258987db0a5fcdbbc855d37c408a29e54ff85bc3d0e4e6c68900f18e43a2289da83a0d1b5794e35c4d19d6dd0d28e6ebeac30326de9f8ce7ffdcb8f1c
+    url: https://assets.bonsai.sensu.io/304d4c058bcd8b07f436f2187e946b1588602579/sensu-aws-sns-handler_0.1.0_linux_arm64.tar.gz
+  - filters:
+    - entity.system.os == 'linux'
+    - entity.system.arch == '386'
+    headers: null
+    sha512: 195ca1414307b09b76a54fb91daf3e83ff561082e9e34d05900b12ec0b4564a30b15a5b1a120620813a7b7a216a3b4bafb15beb43a1561ff4a2303c0bdff4905
+    url: https://assets.bonsai.sensu.io/304d4c058bcd8b07f436f2187e946b1588602579/sensu-aws-sns-handler_0.1.0_linux_386.tar.gz
+  - filters:
+    - entity.system.os == 'linux'
+    - entity.system.arch == 'amd64'
+    headers: null
+    sha512: 06391d9ec7317bf7b2f3b87507eccd683650f08440944a1fda73b1e46ed8c1cb9bd229ffcf836ee176a1f0fba52a6cbfa34fd301cf457c37d4762ad72d4a2283
+    url: https://assets.bonsai.sensu.io/304d4c058bcd8b07f436f2187e946b1588602579/sensu-aws-sns-handler_0.1.0_linux_amd64.tar.gz
+  filters: null
+  headers: null
+---
+type: Asset
+api_version: core/v2
+metadata:
+  annotations:
+    io.sensu.bonsai.api_url: https://bonsai.sensu.io/api/v1/assets/nixwiz/sensu-check-status-metric-mutator
+    io.sensu.bonsai.name: sensu-check-status-metric-mutator
+    io.sensu.bonsai.namespace: nixwiz
+    io.sensu.bonsai.tags: mutator
+    io.sensu.bonsai.tier: Community
+    io.sensu.bonsai.url: https://bonsai.sensu.io/assets/nixwiz/sensu-check-status-metric-mutator
+    io.sensu.bonsai.version: 0.2.1
+  created_by: jenkins
+  labels:
+    sensu.io/managed_by: sensuctl
+  name: sensu-check-status-metric-mutator:0.2.1
+  namespace: prune-demo
+spec:
+  builds:
+  - filters:
+    - entity.system.os == 'linux'
+    - entity.system.arch == 'armv7'
+    headers: null
+    sha512: 8e4e439b1015929be947beccedf3d77275b9cc3d1b33389c93fb3f2b1d12562a096881af30d4eaf255bf48ed321f533a8b6d0f94c3d30bb45978cae7e31aebca
+    url: https://assets.bonsai.sensu.io/e8f8ff3bc5de7cdc2fa80d3a45d84ea4a5d2ad67/sensu-check-status-metric-mutator_0.2.1_linux_armv7.tar.gz
+  - filters:
+    - entity.system.os == 'linux'
+    - entity.system.arch == 'arm64'
+    headers: null
+    sha512: 8ef1a5392919c0a5467c74c161ed1e7282bd0e0a2df413fe3b30c03ea209cecc4f1e0ea437bea1dd0ca7e9494c0863fde598258b4404d195898dfe5ee04a6e61
+    url: https://assets.bonsai.sensu.io/e8f8ff3bc5de7cdc2fa80d3a45d84ea4a5d2ad67/sensu-check-status-metric-mutator_0.2.1_linux_arm64.tar.gz
+  - filters:
+    - entity.system.os == 'linux'
+    - entity.system.arch == '386'
+    headers: null
+    sha512: 2823dc8b8ff17dd5e3f9d544f4d0783a933cf6d2b17a1cd32c496cc5b18334ce226864c966a72446855c0eace386bfac58ab6ae2b84043608fd569ef5694f8a0
+    url: https://assets.bonsai.sensu.io/e8f8ff3bc5de7cdc2fa80d3a45d84ea4a5d2ad67/sensu-check-status-metric-mutator_0.2.1_linux_386.tar.gz
+  - filters:
+    - entity.system.os == 'linux'
+    - entity.system.arch == 'amd64'
+    headers: null
+    sha512: de27135b3bf9ef4e713e7b62deb6f80bbec99d7284ced4a386100379383507ee1ae88083b3674df07b529864f20f42b5e95a2bae54661d991a4ad7dbfd947df2
+    url: https://assets.bonsai.sensu.io/e8f8ff3bc5de7cdc2fa80d3a45d84ea4a5d2ad67/sensu-check-status-metric-mutator_0.2.1_linux_amd64.tar.gz
+  - filters:
+    - entity.system.os == 'windows'
+    - entity.system.arch == 'amd64'
+    headers: null
+    sha512: 0da114f549a3e5bc764410eeca5a7cd35b3097ee6cbb76661ca6aff682394327c4e9048ad10462e5995386ce125242ada79298c79b49658df26e654944b61d52
+    url: https://assets.bonsai.sensu.io/e8f8ff3bc5de7cdc2fa80d3a45d84ea4a5d2ad67/sensu-check-status-metric-mutator_0.2.1_windows_amd64.tar.gz
+  - filters:
+    - entity.system.os == 'darwin'
+    - entity.system.arch == 'amd64'
+    headers: null
+    sha512: 9eb1cc28aa31525a64787cdfb99473d7d8b491c28252fe31b27b6c3ad609c61c39954000075d974ca8b9aef7cc18f2bda2868167cdb84c54b4602e1e3b7e93fb
+    url: https://assets.bonsai.sensu.io/e8f8ff3bc5de7cdc2fa80d3a45d84ea4a5d2ad67/sensu-check-status-metric-mutator_0.2.1_darwin_amd64.tar.gz
+  filters: null
+  headers: null
+---
+type: Asset
+api_version: core/v2
+metadata:
+  annotations:
+    io.sensu.bonsai.api_url: https://bonsai.sensu.io/api/v1/assets/nixwiz/sensu-go-fatigue-check-filter
+    io.sensu.bonsai.name: sensu-go-fatigue-check-filter
+    io.sensu.bonsai.namespace: nixwiz
+    io.sensu.bonsai.tags: eventfilter, filter
+    io.sensu.bonsai.tier: Community
+    io.sensu.bonsai.url: https://bonsai.sensu.io/assets/nixwiz/sensu-go-fatigue-check-filter
+    io.sensu.bonsai.version: 0.6.2
+  created_by: jenkins
+  labels:
+    sensu.io/managed_by: sensuctl
+  name: sensu-go-fatigue-check-filter
+  namespace: prune-demo
+spec:
+  builds:
+  - filters: null
+    headers: null
+    sha512: da861daf54032c28d9131a3800c0a8de122f591cd2bc7b9601e11e529e63a1fd3227fe67c5e3a800164224111fbe477dadee59196287d6b2e9c183b99b03f37d
+    url: https://assets.bonsai.sensu.io/9d58cca88863fcf6fbc50c560daeb78429b6009e/sensu-go-fatigue-check-filter_0.6.2.tar.gz
+  filters: null
+  headers: null
+---
+type: Asset
+api_version: core/v2
+metadata:
+  annotations:
+    io.sensu.bonsai.api_url: https://bonsai.sensu.io/api/v1/assets/sensu/sensu-pagerduty-handler
+    io.sensu.bonsai.name: sensu-pagerduty-handler
+    io.sensu.bonsai.namespace: sensu
+    io.sensu.bonsai.tags: handler
+    io.sensu.bonsai.tier: Supported
+    io.sensu.bonsai.url: https://bonsai.sensu.io/assets/sensu/sensu-pagerduty-handler
+    io.sensu.bonsai.version: 1.3.2
+  created_by: jenkins
+  labels:
+    sensu.io/managed_by: sensuctl
+  name: sensu-pagerduty-handler:1.3.2
+  namespace: prune-demo
+spec:
+  builds:
+  - filters:
+    - entity.system.os == 'windows'
+    - entity.system.arch == '386'
+    headers: null
+    sha512: 10eb353c624fa1853a5b6175366e6ae325315208b2289b1191629004737dbacbfc576f54b95a89560a5226e24aa0438458256b04ac1ffdc9876cf0afdf6441dd
+    url: https://assets.bonsai.sensu.io/e6722787284bd20f68d0375ee927aa0ec5d2e57b/sensu-pagerduty-handler_1.3.2_windows_386.tar.gz
+  - filters:
+    - entity.system.os == 'windows'
+    - entity.system.arch == 'amd64'
+    headers: null
+    sha512: 83b51af2254470edbeabf840ae556f113452133f4abbe41e0ce5e0ac37d00262a17646d38ddc23fa16f39706f3506ade902eb1b29429bb0898cfd8c5ce0b0e36
+    url: https://assets.bonsai.sensu.io/e6722787284bd20f68d0375ee927aa0ec5d2e57b/sensu-pagerduty-handler_1.3.2_windows_amd64.tar.gz
+  - filters:
+    - entity.system.os == 'darwin'
+    - entity.system.arch == '386'
+    headers: null
+    sha512: 46826d62f586f935d6a8686da7315105a8161364cbf7665943b3fd349cbe194ab1b5c1f312616014472f2499858f8c595ac5bc56b191df4761632bfa42b1b97c
+    url: https://assets.bonsai.sensu.io/e6722787284bd20f68d0375ee927aa0ec5d2e57b/sensu-pagerduty-handler_1.3.2_darwin_386.tar.gz
+  - filters:
+    - entity.system.os == 'darwin'
+    - entity.system.arch == 'amd64'
+    headers: null
+    sha512: 8f14359b5e9f881a495b7b2019b3ecd080421c43c07a96856ee607ab710f57397fd65fdb288cc672eac201e280fa7d87fb2a23f72089665dc0dfc25b27bc64fc
+    url: https://assets.bonsai.sensu.io/e6722787284bd20f68d0375ee927aa0ec5d2e57b/sensu-pagerduty-handler_1.3.2_darwin_amd64.tar.gz
+  - filters:
+    - entity.system.os == 'linux'
+    - entity.system.arch == 'armv7'
+    headers: null
+    sha512: 77d2a57ce4e806766faf766a592d5623ee31b634d5a118eaf1423a6aec14819cf569bdeb7f557c727f4c3f67a8127b771ff41a3d2e1ce17ffe9935a2bdb00a8a
+    url: https://assets.bonsai.sensu.io/e6722787284bd20f68d0375ee927aa0ec5d2e57b/sensu-pagerduty-handler_1.3.2_linux_armv7.tar.gz
+  - filters:
+    - entity.system.os == 'linux'
+    - entity.system.arch == 'arm64'
+    headers: null
+    sha512: be5a306fcfbec1f3be9ef8f5300dfcbc59425681f4108bf844dc6e7586567e5f5b207f448f335cff0f2bc3816c845bacffa21ed5a124dfb902b7894b4df0acb9
+    url: https://assets.bonsai.sensu.io/e6722787284bd20f68d0375ee927aa0ec5d2e57b/sensu-pagerduty-handler_1.3.2_linux_arm64.tar.gz
+  - filters:
+    - entity.system.os == 'linux'
+    - entity.system.arch == '386'
+    headers: null
+    sha512: 4fea313808cd4e899248f07928386fc84d52cae7013b41d26d6bb9bfac8a0fb4f84cce4ffbeb38d4f8bbb8e4e4e55f72942bfb244d8f2c9f862bcdfb5775da6c
+    url: https://assets.bonsai.sensu.io/e6722787284bd20f68d0375ee927aa0ec5d2e57b/sensu-pagerduty-handler_1.3.2_linux_386.tar.gz
+  - filters:
+    - entity.system.os == 'linux'
+    - entity.system.arch == 'amd64'
+    headers: null
+    sha512: f0236559b696270ea74ac51274269b8af28ed90901b43e2d13ebed1de34f4faf7a29f06268268a0a41a08721ce67fa0c1f245ad54e444eb06f26fbd87163b687
+    url: https://assets.bonsai.sensu.io/e6722787284bd20f68d0375ee927aa0ec5d2e57b/sensu-pagerduty-handler_1.3.2_linux_amd64.tar.gz
+  filters: null
+  headers: null
