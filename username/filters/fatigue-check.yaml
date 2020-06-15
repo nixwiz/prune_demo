@@ -2,8 +2,6 @@ type: EventFilter
 api_version: core/v2
 metadata:
   name: fatigue-check
-  labels:
-    jenkins_managed: "yes"
 spec:
   action: allow
   expressions:
