@@ -2,7 +2,7 @@
 type: CheckConfig
 api_version: core/v2
 metadata:
-  name: check-nginx-status
+  name: labels-check-nginx-status
   labels:
     jenkins_managed: "yes"
 spec:

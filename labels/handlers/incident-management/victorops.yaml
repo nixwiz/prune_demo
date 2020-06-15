@@ -40,7 +40,7 @@
 type: Handler
 api_version: core/v2
 metadata:
-  name: victorops
+  name: labels-victorops
   labels:
     jenkins_managed: "yes"
 spec:
@@ -61,7 +61,7 @@ spec:
 type: Secret
 api_version: secrets/v1
 metadata:
-  name: victorops_routingkey
+  name: labels-victorops_routingkey
   labels:
     jenkins_managed: "yes"
 spec:

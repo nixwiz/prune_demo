@@ -2,7 +2,7 @@
 type: CheckConfig
 api_version: core/v2
 metadata:
-  name: check-memory
+  name: labels-check-memory
   labels:
     jenkins_managed: "yes"
 spec:

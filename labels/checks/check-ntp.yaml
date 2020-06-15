@@ -2,7 +2,7 @@
 type: CheckConfig
 api_version: core/v2
 metadata:
-  name: check-ntp
+  name: labels-check-ntp
   labels:
     jenkins_managed: "yes"
 spec:
