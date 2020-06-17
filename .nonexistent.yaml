@@ -4,7 +4,7 @@ api_version: core/v2
 metadata:
   name: this-check-should-not-exist-used-for-prune
 spec:
-  command: false
+  command: /usr/bin/false
   runtime_assets: null
   publish: false
   subscriptions: null
