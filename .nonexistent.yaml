@@ -1,0 +1,16 @@
+---
+type: CheckConfig
+api_version: core/v2
+metadata:
+  name: this-check-should-not-exist-used-for-prune
+spec:
+  command: false
+  runtime_assets: null
+  publish: false
+  subscriptions: null
+  interval: 30
+  timeout: 10
+  ttl: 0
+  proxy_entity_name: ""
+  stdin: false
+  handlers: null
